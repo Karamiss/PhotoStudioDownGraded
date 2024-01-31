@@ -1,0 +1,19 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Состояние, когда кнопка активирована (выбрана) -->
+    <item android:state_checked="true">
+        <shape>
+            <solid android:color="?attr/colorPrimary" />
+            <stroke android:color="@android:color/darker_gray" android:width="0.6dp" />
+        </shape>
+    </item>
+
+    <!-- Состояние, когда кнопка неактивирована (не выбрана) -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <stroke android:color="@android:color/darker_gray" android:width="0.6dp" />
+        </shape>
+    </item>
+
+</selector>
