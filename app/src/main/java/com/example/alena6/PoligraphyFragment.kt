@@ -1,6 +1,7 @@
 package com.example.alena6
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -32,10 +33,12 @@ class PoligraphyFragment : Fragment() {
         viewModel = (requireActivity() as MainActivity).viewModel
 
         binding.buttonOrder.setOnClickListener {
-            viewModel.postData(
-                binding.size.toString(), // "10x15"
-                binding.document.bindingType.toString()
-                )
+//            viewModel.postData(
+//                binding.size.toString(), // "10x15"
+//                binding.document.bindingType.toString()
+//                )
+            Log.d( "sfsdf", binding.size.toString())
+
         }
         val photo = arguments?.getParcelable<ItemModel>("photo")
 

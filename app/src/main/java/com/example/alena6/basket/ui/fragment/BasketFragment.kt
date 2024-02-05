@@ -1,4 +1,4 @@
-package com.example.alena6.basket
+package com.example.alena6.basket.ui.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
